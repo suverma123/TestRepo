@@ -976,6 +976,36 @@
         <RunTimePermissions></RunTimePermissions>
         <Entities>
             <Entity
+             name="PTC.SimulatorDefaultGaugeCenter.Style"
+             type="StyleDefinition">
+                <VisibilityPermissions>
+                    <Visibility></Visibility>
+                </VisibilityPermissions>
+                <DesignTimePermissions>
+                    <Create></Create>
+                    <Read></Read>
+                    <Update></Update>
+                    <Delete></Delete>
+                    <Metadata></Metadata>
+                </DesignTimePermissions>
+                <RunTimePermissions></RunTimePermissions>
+            </Entity>
+            <Entity
+             name="PTC.Simulator2.Style"
+             type="StyleDefinition">
+                <VisibilityPermissions>
+                    <Visibility></Visibility>
+                </VisibilityPermissions>
+                <DesignTimePermissions>
+                    <Create></Create>
+                    <Read></Read>
+                    <Update></Update>
+                    <Delete></Delete>
+                    <Metadata></Metadata>
+                </DesignTimePermissions>
+                <RunTimePermissions></RunTimePermissions>
+            </Entity>
+            <Entity
              name="PTC.Simulator.Style"
              type="StyleDefinition">
                 <VisibilityPermissions>
@@ -1006,37 +1036,7 @@
                 <RunTimePermissions></RunTimePermissions>
             </Entity>
             <Entity
-             name="PTC.SimulatorDefaultGaugeCenter.Style"
-             type="StyleDefinition">
-                <VisibilityPermissions>
-                    <Visibility></Visibility>
-                </VisibilityPermissions>
-                <DesignTimePermissions>
-                    <Create></Create>
-                    <Read></Read>
-                    <Update></Update>
-                    <Delete></Delete>
-                    <Metadata></Metadata>
-                </DesignTimePermissions>
-                <RunTimePermissions></RunTimePermissions>
-            </Entity>
-            <Entity
              name="PTC.SimulatorDefaultGaugeFace.Style"
-             type="StyleDefinition">
-                <VisibilityPermissions>
-                    <Visibility></Visibility>
-                </VisibilityPermissions>
-                <DesignTimePermissions>
-                    <Create></Create>
-                    <Read></Read>
-                    <Update></Update>
-                    <Delete></Delete>
-                    <Metadata></Metadata>
-                </DesignTimePermissions>
-                <RunTimePermissions></RunTimePermissions>
-            </Entity>
-            <Entity
-             name="PTC.Simulator2.Style"
              type="StyleDefinition">
                 <VisibilityPermissions>
                     <Visibility></Visibility>
@@ -1434,6 +1434,81 @@
                 <RunTimePermissions></RunTimePermissions>
             </Entity>
             <Entity
+             name="PTC.SimulatorSA.Media"
+             type="MediaEntity">
+                <VisibilityPermissions>
+                    <Visibility></Visibility>
+                </VisibilityPermissions>
+                <DesignTimePermissions>
+                    <Create></Create>
+                    <Read></Read>
+                    <Update></Update>
+                    <Delete></Delete>
+                    <Metadata></Metadata>
+                </DesignTimePermissions>
+                <RunTimePermissions></RunTimePermissions>
+            </Entity>
+            <Entity
+             name="SimulatorStreamSnapShot"
+             type="MediaEntity">
+                <VisibilityPermissions>
+                    <Visibility></Visibility>
+                </VisibilityPermissions>
+                <DesignTimePermissions>
+                    <Create></Create>
+                    <Read></Read>
+                    <Update></Update>
+                    <Delete></Delete>
+                    <Metadata></Metadata>
+                </DesignTimePermissions>
+                <RunTimePermissions></RunTimePermissions>
+            </Entity>
+            <Entity
+             name="SimulatorSnapShot"
+             type="MediaEntity">
+                <VisibilityPermissions>
+                    <Visibility></Visibility>
+                </VisibilityPermissions>
+                <DesignTimePermissions>
+                    <Create></Create>
+                    <Read></Read>
+                    <Update></Update>
+                    <Delete></Delete>
+                    <Metadata></Metadata>
+                </DesignTimePermissions>
+                <RunTimePermissions></RunTimePermissions>
+            </Entity>
+            <Entity
+             name="SimulatorSubscriptionsSnapShot"
+             type="MediaEntity">
+                <VisibilityPermissions>
+                    <Visibility></Visibility>
+                </VisibilityPermissions>
+                <DesignTimePermissions>
+                    <Create></Create>
+                    <Read></Read>
+                    <Update></Update>
+                    <Delete></Delete>
+                    <Metadata></Metadata>
+                </DesignTimePermissions>
+                <RunTimePermissions></RunTimePermissions>
+            </Entity>
+            <Entity
+             name="SimulatorThingsTemplate"
+             type="MediaEntity">
+                <VisibilityPermissions>
+                    <Visibility></Visibility>
+                </VisibilityPermissions>
+                <DesignTimePermissions>
+                    <Create></Create>
+                    <Read></Read>
+                    <Update></Update>
+                    <Delete></Delete>
+                    <Metadata></Metadata>
+                </DesignTimePermissions>
+                <RunTimePermissions></RunTimePermissions>
+            </Entity>
+            <Entity
              name="SimulatorModel"
              type="MediaEntity">
                 <VisibilityPermissions>
@@ -1587,82 +1662,7 @@
                 </RunTimePermissions>
             </Entity>
             <Entity
-             name="PTC.SimulatorSA.Media"
-             type="MediaEntity">
-                <VisibilityPermissions>
-                    <Visibility></Visibility>
-                </VisibilityPermissions>
-                <DesignTimePermissions>
-                    <Create></Create>
-                    <Read></Read>
-                    <Update></Update>
-                    <Delete></Delete>
-                    <Metadata></Metadata>
-                </DesignTimePermissions>
-                <RunTimePermissions></RunTimePermissions>
-            </Entity>
-            <Entity
-             name="SimulatorStreamSnapShot"
-             type="MediaEntity">
-                <VisibilityPermissions>
-                    <Visibility></Visibility>
-                </VisibilityPermissions>
-                <DesignTimePermissions>
-                    <Create></Create>
-                    <Read></Read>
-                    <Update></Update>
-                    <Delete></Delete>
-                    <Metadata></Metadata>
-                </DesignTimePermissions>
-                <RunTimePermissions></RunTimePermissions>
-            </Entity>
-            <Entity
              name="SimulatorSubscriptionsListSnapShot"
-             type="MediaEntity">
-                <VisibilityPermissions>
-                    <Visibility></Visibility>
-                </VisibilityPermissions>
-                <DesignTimePermissions>
-                    <Create></Create>
-                    <Read></Read>
-                    <Update></Update>
-                    <Delete></Delete>
-                    <Metadata></Metadata>
-                </DesignTimePermissions>
-                <RunTimePermissions></RunTimePermissions>
-            </Entity>
-            <Entity
-             name="SimulatorSnapShot"
-             type="MediaEntity">
-                <VisibilityPermissions>
-                    <Visibility></Visibility>
-                </VisibilityPermissions>
-                <DesignTimePermissions>
-                    <Create></Create>
-                    <Read></Read>
-                    <Update></Update>
-                    <Delete></Delete>
-                    <Metadata></Metadata>
-                </DesignTimePermissions>
-                <RunTimePermissions></RunTimePermissions>
-            </Entity>
-            <Entity
-             name="SimulatorSubscriptionsSnapShot"
-             type="MediaEntity">
-                <VisibilityPermissions>
-                    <Visibility></Visibility>
-                </VisibilityPermissions>
-                <DesignTimePermissions>
-                    <Create></Create>
-                    <Read></Read>
-                    <Update></Update>
-                    <Delete></Delete>
-                    <Metadata></Metadata>
-                </DesignTimePermissions>
-                <RunTimePermissions></RunTimePermissions>
-            </Entity>
-            <Entity
-             name="SimulatorThingsTemplate"
              type="MediaEntity">
                 <VisibilityPermissions>
                     <Visibility></Visibility>
