@@ -137,6 +137,21 @@
         </RunTimePermissions>
         <Entities>
             <Entity
+             name="TestNewGroup"
+             type="Group">
+                <VisibilityPermissions>
+                    <Visibility></Visibility>
+                </VisibilityPermissions>
+                <DesignTimePermissions>
+                    <Create></Create>
+                    <Read></Read>
+                    <Update></Update>
+                    <Delete></Delete>
+                    <Metadata></Metadata>
+                </DesignTimePermissions>
+                <RunTimePermissions></RunTimePermissions>
+            </Entity>
+            <Entity
              name="DeviceUsers"
              type="Group">
                 <VisibilityPermissions>
