@@ -22,12 +22,41 @@
             <avatar></avatar>
             <DesignTimePermissions>
                 <Create></Create>
-                <Read></Read>
-                <Update></Update>
+                <Read>
+                    <Principal
+                     isPermitted="true"
+                     name="TestNewGroup"
+                     type="Group"></Principal>
+                </Read>
+                <Update>
+                    <Principal
+                     isPermitted="true"
+                     name="TestNewGroup"
+                     type="Group"></Principal>
+                </Update>
                 <Delete></Delete>
                 <Metadata></Metadata>
             </DesignTimePermissions>
-            <RunTimePermissions></RunTimePermissions>
+            <RunTimePermissions>
+                <Permissions
+                 resourceName="*">
+                    <PropertyRead>
+                        <Principal
+                         isPermitted="true"
+                         name="TestNewGroup"
+                         type="Group"></Principal>
+                    </PropertyRead>
+                    <PropertyWrite>
+                        <Principal
+                         isPermitted="true"
+                         name="TestNewGroup"
+                         type="Group"></Principal>
+                    </PropertyWrite>
+                    <ServiceInvoke></ServiceInvoke>
+                    <EventInvoke></EventInvoke>
+                    <EventSubscribe></EventSubscribe>
+                </Permissions>
+            </RunTimePermissions>
             <VisibilityPermissions>
                 <Visibility></Visibility>
             </VisibilityPermissions>
